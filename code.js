@@ -190,7 +190,8 @@ async function parseFunc(url, isDetailed) {
       });
     }
   } catch (e) {
-    console.log(e);
+    console.log(e); 
+
   }
 }
 
@@ -210,3 +211,5 @@ q.push({ url: 'https://povar.ru/list/spagetti/5', isDetailed: false }); // за�
     console.log(dataRecepts); // выводим сам массив для просмотра
   });
 })();
+
+console.log('hello');
